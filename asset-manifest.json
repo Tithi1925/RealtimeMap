@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RealtimeMap/static/css/main.9121968f.css",
+    "main.js": "/RealtimeMap/static/js/main.f059fa29.js",
+    "static/js/453.ac7a9cfd.chunk.js": "/RealtimeMap/static/js/453.ac7a9cfd.chunk.js",
+    "index.html": "/RealtimeMap/index.html",
+    "main.9121968f.css.map": "/RealtimeMap/static/css/main.9121968f.css.map",
+    "main.f059fa29.js.map": "/RealtimeMap/static/js/main.f059fa29.js.map",
+    "453.ac7a9cfd.chunk.js.map": "/RealtimeMap/static/js/453.ac7a9cfd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9121968f.css",
+    "static/js/main.f059fa29.js"
+  ]
+}
