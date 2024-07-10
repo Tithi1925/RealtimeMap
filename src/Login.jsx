@@ -36,7 +36,7 @@ function Login() {
   const onSubmit = async (data) => {
     try {
       setLoading(true);
-      const response = await axios.post(`http://{s}.192.168.0.153:7000/api/UserDetails/authenticate/Portal`, data, { timeout: 10000 }); // Timeout set to 10 seconds (10000 ms)
+      const response = await axios.post(`http://192.168.0.153:7000/api/UserDetails/authenticate/Portal`, data, { timeout: 10000 }); // Timeout set to 10 seconds (10000 ms)
       toast.success(response.data.message);
       secureLocalStorage.setItem('user', JSON.stringify(response.data.userId));
       secureLocalStorage.setItem('role', JSON.stringify(response.data.roleIds));
